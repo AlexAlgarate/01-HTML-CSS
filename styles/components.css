@@ -6,10 +6,9 @@
   text-decoration: none;
   display: inline-block;
 
-  /* Forma nueva de hacer el hover */
-  /* &:hover {
+  &:hover {
     background-color: var(--main-brand-color-light);
-  } */
+  }
 }
 
 .card {
