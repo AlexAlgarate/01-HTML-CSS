@@ -1,10 +1,25 @@
 :root {
-  --bg-color: #000;
-  --main-brand-color: #e50914;
-  --main-brand-color-light: #e44c54;
-  --secondary-brand-color: #0e1b4f;
-  --main-text-color: #fff;
-  --border-color: #4b5563;
+  /* Main colors */
+  --bg-color: #121212;
+  --bg-color-secondary: #1e1e1e;
+  --bg-color-tertiary: #2d2d2d;
+
+  /* Accent colors */
+  --accent-primary: #8b5cf6; /* Púrpura vibrante */
+  --accent-secondary: #3b82f6; /* Azul eléctrico */
+  --accent-tertiary: #10b981; /* Verde esmeralda */
+
+  /* Text colors */
+  --text-primary: #ffffff;
+  --text-secondary: #a3a3a3;
+  --text-tertiary: #6b7280;
+
+  /* Other colors */
+  --border-color: #333333;
+  --card-bg: #1a1a1a;
+  --hover-color: #2a2a2a;
+
+  /* Main font */
   --main-font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -13,8 +28,9 @@
 }
 
 .main-bg {
-  background-color: #000;
-  color: rgb(255, 255, 255, 1);
+  background-color: var(--bg-color);
+  color: var(--text-primary);
+  border-color: var(--border-color);
 }
 
 a.hidden {

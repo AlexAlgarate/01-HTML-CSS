@@ -7,7 +7,7 @@
   display: inline-block;
 
   &:hover {
-    background-color: var(--main-brand-color-light);
+    background-color: var(--hover-color);
   }
 }
 
@@ -16,6 +16,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-color: var(--card-bg);
   width: 85%;
   gap: 8px;
   padding: 16px 12px;
