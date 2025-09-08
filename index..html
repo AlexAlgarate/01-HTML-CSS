@@ -43,7 +43,51 @@
           En pantallas móviles deberá tener otra para practicar las media queries"
         />
       </section>
-      <section class="form">form</section>
+      <section>
+        <form class="form">
+          <label for="fname">Nombre:</label>
+          <input type="text" name="fname" id="fname" required />
+
+          <label for="lname">Apellido:</label>
+          <input type="text" name="lname" id="lname" required />
+
+          <label for="phone">Teléfono:</label>
+          <input type="tel" name="phone" id="phone" required />
+
+          <fieldset>
+            <legend>¿Dónde nos has conocido?</legend>
+            <label>
+              <input type="radio" name="known_from" value="university" required />
+              Universidad
+            </label>
+            <label>
+              <input type="radio" name="known_from" value="Keepcoding" />
+              Keepcoding Kick-off
+            </label>
+            <label>
+              <input type="radio" name="known_from" value="Github" />
+              Github
+            </label>
+            <label>
+              <input type="radio" name="known_from" value="school" />
+              Colegio
+            </label>
+          </fieldset>
+          <label for="userinfo">Más información sobre ti</label>
+          <textarea
+            name="userinfo"
+            id="userinfo"
+            maxlength="180"
+            placeholder="Cuéntanos más sobre ti..."
+            rows="5"
+          ></textarea>
+
+          <label for="newsletter">¿Quieres suscribirte a la newsletter?</label>
+          <input type="checkbox" name="newsletter" id="newsletter" />
+          <input type="submit" value="Guardar" />
+          <input type="reset" value="Borrar todo" />
+        </form>
+      </section>
     </main>
     <footer class="footer">
       Footer
