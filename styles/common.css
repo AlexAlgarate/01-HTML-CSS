@@ -22,3 +22,8 @@
 a.hidden {
   display: none;
 }
+@media screen and (width > 768px) {
+  a.hidden {
+    display: block;
+  }
+}
