@@ -21,6 +21,8 @@
 
   /* Main font */
   --main-font-family: Arial, Helvetica, sans-serif;
+
+  scroll-behavior: smooth;
 }
 
 * {
