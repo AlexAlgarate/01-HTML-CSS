@@ -1,0 +1,23 @@
+.skills,
+.skills .skill {
+  margin-bottom: 2rem;
+}
+
+.progress-bar {
+  background-color: var(--bg-color-secondary);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.progress {
+  height: 20px;
+  background-color: var(--accent-tertiary);
+  border-radius: 10px;
+  animation: fillProgress 2s ease-in-out forwards;
+}
+
+@keyframes fillProgress {
+  from {
+    width: 0;
+  }
+}
