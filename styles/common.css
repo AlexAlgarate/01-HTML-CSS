@@ -23,6 +23,11 @@
   --main-font-family: Arial, Helvetica, sans-serif;
 
   scroll-behavior: smooth;
+
+  color-scheme: dark;
+  :has(input:checked) {
+    color-scheme: light;
+  }
 }
 
 * {
