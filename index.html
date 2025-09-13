@@ -8,9 +8,10 @@
     <link rel="stylesheet" href="styles/common.css" />
     <link rel="stylesheet" href="styles/header.css" />
     <link rel="stylesheet" href="styles/components.css" />
+    <link rel="stylesheet" href="styles/skills.css" />
+    <link rel="stylesheet" href="styles/banner.css" />
     <link rel="stylesheet" href="styles/form.css" />
     <link rel="stylesheet" href="styles/footer.css" />
-    <link rel="stylesheet" href="styles/skills.css" />
   </head>
   <body class="main-bg">
     <header class="header">
@@ -90,11 +91,18 @@
         </div>
       </section>
       <section class="banner">
-        <img
-          src=""
-          alt="Banner que deberá tener una imagen de fondo. 
-          En pantallas móviles deberá tener otra para practicar las media queries"
-        />
+        <picture class="imagen-contenedor">
+          <source
+            media="(width > 768px)"
+            srcset="assets/images/html_space.webp"
+            class="imagen"
+          />
+          <img
+            src="assets/images/html.webp"
+            alt="logo de css en el espacio"
+            class="imagen"
+          />
+        </picture>
       </section>
       <section id="contacto">
         <form class="form">
