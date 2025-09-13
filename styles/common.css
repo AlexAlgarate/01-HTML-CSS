@@ -24,10 +24,11 @@
 
   scroll-behavior: smooth;
 
-  color-scheme: dark;
+  /* TODO cambio modo dark/light*/
+  /* color-scheme: dark;
   :has(input:checked) {
     color-scheme: light;
-  }
+  } */
 }
 
 * {
