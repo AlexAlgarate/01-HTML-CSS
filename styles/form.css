@@ -31,8 +31,7 @@
   transition: border-color 0.2s ease;
 }
 
-.form input[type='text']:focus,
-.form input[type='tel']:focus,
+.form input:focus,
 .form textarea:focus {
   outline: none;
   border-color: var(--accent-primary);
