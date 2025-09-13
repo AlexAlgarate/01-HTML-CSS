@@ -1,0 +1,21 @@
+.banner {
+  width: 100%;
+  /* padding: 1rem; */
+  margin: 2rem 0;
+}
+
+.imagen-contenedor {
+  display: block;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.imagen {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
