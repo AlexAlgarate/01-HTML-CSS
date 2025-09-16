@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="styles/common.css" />
     <link rel="stylesheet" href="styles/header.css" />
     <link rel="stylesheet" href="styles/components.css" />
+    <link rel="stylesheet" href="styles/video.css" />
+    <link rel="stylesheet" href="styles/projects.css" />
+    <link rel="stylesheet" href="styles/footer.css" />
   </head>
   <body class="main-bg">
     <header class="header">
@@ -17,19 +20,45 @@
       <nav class="navbar">
         <ul class="list">
           <li class="item">
-            <a href="/projects.html" class="btn hidden">Proyectos</a>
+            <a href="/projects.html" class="btn">Proyectos</a>
           </li>
           <li class="item">
-            <a href="#skills" class="btn hidden">Habilidades</a>
+            <a href="#skills" class="btn">Habilidades</a>
           </li>
           <li class="item">
-            <a href="/index.html#contacto" class="btn hidden">Contacto</a>
+            <a href="/index.html#contacto" class="btn">Contacto</a>
           </li>
         </ul>
       </nav>
     </header>
-    <main>
+    <main class="main-block">
       <h1>Proyectos</h1>
+      <div class="fade-in">
+        video
+        <iframe
+          width="100%"
+          height="450"
+          src="https://www.youtube.com/embed/fXfoyz7N8EQ?autoplay=1&mute=1"
+          frameborder="0"
+          allow="autoplay; encrypted-media"
+          allowfullscreen
+          class="video-yt"
+        >
+        </iframe>
+      </div>
     </main>
+    <footer class="footer">
+      <div class="social-media">
+        <a href="https://github.com/AlexAlgarate?tab=repositories" target="_blank">
+          <img
+            src="assets/logos/github-mark-white.svg"
+            alt="Logo del gato de Github en color claro"
+          />
+        </a>
+        <a href="https://www.linkedin.com/in/alex-algarate/" target="_blank">
+          <img src="assets/logos/linkedin-svgrepo-com.svg" alt="Logo de Linkedin" />
+        </a>
+      </div>
+    </footer>
   </body>
 </html>
