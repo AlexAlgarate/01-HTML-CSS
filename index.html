@@ -109,13 +109,13 @@
       <div id="contacto">
         <h2>Contacta con nosotros</h2>
         <form class="form card" method="post">
-          <label for="fname">Nombre:</label>
+          <label for="fname">Nombre</label>
           <input type="text" name="fname" id="fname" required autocomplete="name" />
 
-          <label for="lname">Apellido:</label>
+          <label for="lname">Apellido</label>
           <input type="text" name="lname" id="lname" required autocomplete="off" />
 
-          <label for="phone">Teléfono:</label>
+          <label for="phone">Teléfono</label>
           <input type="tel" name="phone" id="phone" required autocomplete="tel" />
 
           <fieldset>
@@ -139,8 +139,8 @@
               />
               Universidad
             </label>
-            <label for="github">
-              <input type="radio" name="known_from" id="github" value="Github" />
+            <label for="github-radio">
+              <input type="radio" name="known_from" id="github-radio" value="Github" />
               Github
             </label>
             <label for="shcool">
@@ -148,6 +148,17 @@
               Colegio
             </label>
           </fieldset>
+
+          <label for="github-profile">Perfil de Github</label>
+          <input
+            type="text"
+            name="github-profile"
+            id="github-profile"
+            required
+            pattern="^@[^\s]+"
+            placeholder="Example: AlexAlgarate"
+          />
+
           <label for="userinfo">Más información sobre ti</label>
           <textarea
             name="userinfo"
