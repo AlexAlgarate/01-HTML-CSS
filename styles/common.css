@@ -18,6 +18,7 @@
   --border-color: #333333;
   --card-bg: #1a1a1a;
   --hover-color: #2a2a2a;
+  --card-shadow-color: rgba(139, 92, 246, 0.24);
 
   /* Main font */
   --main-font-family: Arial, Helvetica, sans-serif;
