@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Error 404</title>
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/common.css" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/components.css" />
+    <link rel="stylesheet" href="styles/video.css" />
+    <link rel="stylesheet" href="styles/projects.css" />
+    <link rel="stylesheet" href="styles/footer.css" />
+    <style>
+      body {
+        margin: 0;
+        background: var(--bg-color);
+        color: var(--text-primary);
+        font-family: var(--main-font-family);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+      .error-box {
+        background: var(--card-bg);
+        padding: 2rem;
+        border-radius: 12px;
+        box-shadow: 0 6px 20px var(--card-shadow-color);
+        text-align: center;
+        max-width: 400px;
+        width: 100%;
+      }
+      h1 {
+        font-size: 5rem;
+        margin: 0;
+        color: var(--accent-primary);
+      }
+      p {
+        margin: 1rem 0;
+        color: var(--text-secondary);
+      }
+      a {
+        display: inline-block;
+        padding: 0.75rem 1.5rem;
+        background: var(--accent-secondary);
+        color: #fff;
+        border-radius: 8px;
+        text-decoration: none;
+        font-weight: bold;
+        transition: background 0.3s;
+      }
+      a:hover {
+        background: var(--accent-primary);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="error-box">
+      <h1>404</h1>
+      <p>Página no encontrada</p>
+      <a href="index.html">Volver al inicio</a>
+    </div>
+  </body>
+</html>
