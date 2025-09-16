@@ -42,7 +42,7 @@
 
       <h1>Portfolio</h1>
       <section class="description">
-        <h2>Description</h2>
+        <h2>Descripción</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas quaerat
           incidunt rem consectetur corrupti repellendus esse sapiente nam, error
@@ -57,39 +57,41 @@
           quidem nemo aut ad! Sunt doloribus quibusdam harum.
         </p>
       </section>
-      <section id="skills" class="skills container">
+      <div>
         <h2>Mis skills</h2>
-        <div class="skill">
-          <p>Trabajo en equipo</p>
-          <div class="progress-bar">
-            <div class="progress" style="width: 85%"></div>
+        <section id="skills" class="card">
+          <div class="skill">
+            <p>Trabajo en equipo</p>
+            <div class="progress-bar">
+              <div class="progress" style="width: 85%"></div>
+            </div>
           </div>
-        </div>
-        <div class="skill">
-          <p>Atletismo</p>
-          <div class="progress-bar">
-            <div class="progress" style="width: 30%"></div>
+          <div class="skill">
+            <p>Guitarra</p>
+            <div class="progress-bar">
+              <div class="progress" style="width: 10%"></div>
+            </div>
           </div>
-        </div>
-        <div class="skill">
-          <p>Python</p>
-          <div class="progress-bar">
-            <div class="progress" style="width: 90%"></div>
+          <div class="skill">
+            <p>Python</p>
+            <div class="progress-bar">
+              <div class="progress" style="width: 90%"></div>
+            </div>
           </div>
-        </div>
-        <div class="skill">
-          <p>Tailwind</p>
-          <div class="progress-bar">
-            <div class="progress" style="width: 65%"></div>
+          <div class="skill">
+            <p>Tailwind</p>
+            <div class="progress-bar">
+              <div class="progress" style="width: 65%"></div>
+            </div>
           </div>
-        </div>
-        <div class="skill">
-          <p>Proactividad</p>
-          <div class="progress-bar">
-            <div class="progress" style="width: 100%"></div>
+          <div class="skill">
+            <p>Proactividad</p>
+            <div class="progress-bar">
+              <div class="progress" style="width: 100%"></div>
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
+      </div>
       <section class="banner">
         <picture class="imagen-contenedor">
           <source
@@ -104,56 +106,63 @@
           />
         </picture>
       </section>
+      <div>
+        <h2>Contacta con nosotros</h2>
+        <form id="contacto" class="form card" method="post">
+          <label for="fname">Nombre:</label>
+          <input type="text" name="fname" id="fname" required autocomplete="name" />
 
-      <form id="contacto" class="form" method="post">
-        <label for="fname">Nombre:</label>
-        <input type="text" name="fname" id="fname" required autocomplete="name" />
+          <label for="lname">Apellido:</label>
+          <input type="text" name="lname" id="lname" required autocomplete="off" />
 
-        <label for="lname">Apellido:</label>
-        <input type="text" name="lname" id="lname" required autocomplete="off" />
+          <label for="phone">Teléfono:</label>
+          <input type="tel" name="phone" id="phone" required autocomplete="tel" />
 
-        <label for="phone">Teléfono:</label>
-        <input type="tel" name="phone" id="phone" required autocomplete="tel" />
+          <fieldset>
+            <legend>¿Dónde nos has conocido?</legend>
+            <label for="Keepcoding">
+              <input
+                type="radio"
+                name="known_from"
+                id="Keepcoding"
+                value="Keepcoding"
+                checked
+              />
+              Keepcoding Kick-off
+            </label>
+            <label for="university">
+              <input
+                type="radio"
+                name="known_from"
+                id="university"
+                value="university"
+              />
+              Universidad
+            </label>
+            <label for="github">
+              <input type="radio" name="known_from" id="github" value="Github" />
+              Github
+            </label>
+            <label for="shcool">
+              <input type="radio" name="known_from" id="school" value="school" />
+              Colegio
+            </label>
+          </fieldset>
+          <label for="userinfo">Más información sobre ti</label>
+          <textarea
+            name="userinfo"
+            id="userinfo"
+            maxlength="180"
+            placeholder="Cuéntanos más sobre ti..."
+            rows="5"
+          ></textarea>
 
-        <fieldset>
-          <legend>¿Dónde nos has conocido?</legend>
-          <label for="Keepcoding">
-            <input
-              type="radio"
-              name="known_from"
-              id="Keepcoding"
-              value="Keepcoding"
-              checked
-            />
-            Keepcoding Kick-off
-          </label>
-          <label for="university">
-            <input type="radio" name="known_from" id="university" value="university" />
-            Universidad
-          </label>
-          <label for="github">
-            <input type="radio" name="known_from" id="github" value="Github" />
-            Github
-          </label>
-          <label for="shcool">
-            <input type="radio" name="known_from" id="school" value="school" />
-            Colegio
-          </label>
-        </fieldset>
-        <label for="userinfo">Más información sobre ti</label>
-        <textarea
-          name="userinfo"
-          id="userinfo"
-          maxlength="180"
-          placeholder="Cuéntanos más sobre ti..."
-          rows="5"
-        ></textarea>
-
-        <label for="newsletter">¿Quieres suscribirte a la newsletter?</label>
-        <input type="checkbox" name="newsletter" id="newsletter" />
-        <input type="submit" value="Guardar" />
-        <input type="reset" value="Reset" />
-      </form>
+          <label for="newsletter">¿Quieres suscribirte a la newsletter?</label>
+          <input type="checkbox" name="newsletter" id="newsletter" />
+          <input type="submit" value="Guardar" />
+          <input type="reset" value="Reset" />
+        </form>
+      </div>
     </main>
     <footer class="footer">
       <div class="social-media">
