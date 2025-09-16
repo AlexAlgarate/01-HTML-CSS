@@ -15,7 +15,7 @@
   </head>
   <body class="main-bg">
     <header class="header">
-      <a href="/index.html">
+      <a href="#header">
         <img src="assets/logos/github-mark-white.svg" alt="Imagen de la navbar" />
       </a>
       <input type="checkbox" id="nav-toggle" class="nav-toggle" />
@@ -40,7 +40,7 @@
       <!-- TODO Funcionalidad cambiar modo oscuro/claro-->
       <!-- <input type="checkbox" /> -->
 
-      <h1>Portfolio</h1>
+      <h1 id="header">Portfolio Alex Algarate</h1>
       <section class="description">
         <h2>Descripción</h2>
         <p>
@@ -93,7 +93,7 @@
         </section>
       </div>
       <section class="banner">
-        <picture class="imagen-contenedor">
+        <picture class="image-container">
           <source
             media="(width > 768px)"
             srcset="assets/images/html.webp"
@@ -106,9 +106,9 @@
           />
         </picture>
       </section>
-      <div>
+      <div id="contacto">
         <h2>Contacta con nosotros</h2>
-        <form id="contacto" class="form card" method="post">
+        <form class="form card" method="post">
           <label for="fname">Nombre:</label>
           <input type="text" name="fname" id="fname" required autocomplete="name" />
 
