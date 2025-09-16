@@ -36,7 +36,7 @@
         </ul>
       </nav>
     </header>
-    <main>
+    <main class="main-block">
       <!-- TODO Funcionalidad cambiar modo oscuro/claro-->
       <!-- <input type="checkbox" /> -->
 
@@ -105,32 +105,38 @@
         </picture>
       </section>
 
-      <form id="contacto" class="form">
+      <form id="contacto" class="form" method="post">
         <label for="fname">Nombre:</label>
-        <input type="text" name="fname" id="fname" required />
+        <input type="text" name="fname" id="fname" required autocomplete="name" />
 
         <label for="lname">Apellido:</label>
-        <input type="text" name="lname" id="lname" required />
+        <input type="text" name="lname" id="lname" required autocomplete="off" />
 
         <label for="phone">Teléfono:</label>
-        <input type="tel" name="phone" id="phone" required />
+        <input type="tel" name="phone" id="phone" required autocomplete="tel" />
 
         <fieldset>
           <legend>¿Dónde nos has conocido?</legend>
-          <label>
-            <input type="radio" name="known_from" value="university" required />
-            Universidad
-          </label>
-          <label>
-            <input type="radio" name="known_from" value="Keepcoding" />
+          <label for="Keepcoding">
+            <input
+              type="radio"
+              name="known_from"
+              id="Keepcoding"
+              value="Keepcoding"
+              checked
+            />
             Keepcoding Kick-off
           </label>
-          <label>
-            <input type="radio" name="known_from" value="Github" />
+          <label for="university">
+            <input type="radio" name="known_from" id="university" value="university" />
+            Universidad
+          </label>
+          <label for="github">
+            <input type="radio" name="known_from" id="github" value="Github" />
             Github
           </label>
-          <label>
-            <input type="radio" name="known_from" value="school" />
+          <label for="shcool">
+            <input type="radio" name="known_from" id="school" value="school" />
             Colegio
           </label>
         </fieldset>
@@ -146,7 +152,7 @@
         <label for="newsletter">¿Quieres suscribirte a la newsletter?</label>
         <input type="checkbox" name="newsletter" id="newsletter" />
         <input type="submit" value="Guardar" />
-        <input type="reset" value="Borrar todo" />
+        <input type="reset" value="Reset" />
       </form>
     </main>
     <footer class="footer">
