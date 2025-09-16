@@ -16,7 +16,6 @@
   flex-direction: column;
   justify-content: center;
   width: 100%;
-  max-width: 500px;
   padding: 2rem;
   background-color: var(--card-bg);
   border-radius: 8px;
