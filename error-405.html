@@ -17,23 +17,41 @@
         align-items: center;
         height: 100vh;
       }
+
       .error-box {
         background: var(--bg-color-secondary);
         padding: 2rem;
         border-radius: 12px;
-        box-shadow: 6px 6px 20px var(--card-shadow-color);
+        box-shadow: 8px 8px 14px var(--card-shadow-color);
         text-align: center;
         max-width: 420px;
         width: 100%;
       }
+
       h1 {
         font-size: 4rem;
         margin: 0;
-        color: var(--accent-secondary);
+        color: var(--text-primary);
       }
+
       p {
         margin: 1rem 0;
         color: var(--text-tertiary);
+      }
+
+      a {
+        display: inline-block;
+        padding: 0.75rem 1.5rem;
+        background: var(--accent-secondary);
+        color: #fff;
+        border-radius: 8px;
+        text-decoration: none;
+        font-weight: bold;
+        transition: background 0.5s;
+      }
+
+      a:hover {
+        background: var(--accent-primary);
       }
     </style>
   </head>
@@ -41,6 +59,7 @@
     <div class="error-box">
       <h1>405</h1>
       <p>El método de la petición no está permitido</p>
+      <a href="index.html">Volver al inicio</a>
     </div>
   </body>
 </html>
