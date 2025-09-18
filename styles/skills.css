@@ -6,13 +6,24 @@
 
 .progress {
   height: 20px;
-  background-color: var(--accent-tertiary);
+  background: linear-gradient(
+    90deg,
+    var(--accent-tertiary),
+    #34d399,
+    var(--accent-tertiary)
+  );
   border-radius: 10px;
   animation: fillProgress 2s ease-in-out forwards;
 }
 
 @keyframes fillProgress {
-  from {
+  0% {
     width: 0;
+  }
+  80% {
+    width: calc(var(--final-width) + 0.47%);
+  }
+  100% {
+    width: var(--final-width);
   }
 }
