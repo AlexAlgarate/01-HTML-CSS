@@ -14,7 +14,6 @@
   margin-bottom: 1.5rem;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   width: 100%;
   padding: 1rem;
   background: linear-gradient(135deg, var(--card-bg), var(--card-bg-alt));
