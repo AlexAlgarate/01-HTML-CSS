@@ -4,6 +4,7 @@
   font-weight: 100;
   font-style: italic;
   background: linear-gradient(to top, #0e1b4f, var(--bg-color));
+  align-items: center;
 }
 
 .social-media {
@@ -11,6 +12,7 @@
   justify-content: center;
   gap: 1.5rem;
   margin-top: 1rem;
+  align-items: center;
 }
 
 .social-media img {
