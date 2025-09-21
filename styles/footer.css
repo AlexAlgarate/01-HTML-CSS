@@ -3,6 +3,7 @@
   text-align: center;
   font-weight: 100;
   font-style: italic;
+  background: linear-gradient(to top, #0e1b4f, var(--bg-color));
 }
 
 .social-media {
