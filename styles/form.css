@@ -112,3 +112,10 @@
 .form input[type='reset']:hover {
   background-color: #b02a37;
 }
+
+.checkbox-newsletter {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
